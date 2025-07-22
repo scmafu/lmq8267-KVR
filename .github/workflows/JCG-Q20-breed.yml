@@ -1,5 +1,5 @@
 
-name: MI-4
+name: JCG-Q20-breed
 
 on: 
   workflow_dispatch:
@@ -39,7 +39,7 @@ jobs:
         mkdir -p /opt/images/
         
         ##### 修改内存空间和 storage空间13m
-        sed -i 's/SIZ=0x0400000/SIZ=0x0d00000/g' /opt/rt-n56u/trunk/configs/boards/MI-4/kernel-3.4.x.config
+        sed -i 's/SIZ=0x0400000/SIZ=0x0d00000/g' /opt/rt-n56u/trunk/configs/boards/JCG-Q20/kernel-3.4.x.config
         sed -i 's/size_etc="6M"/size_etc="13M"/g' /opt/rt-n56u/trunk/user/scripts/dev_init.sh
         sed -i 's/size_tmp="24M"/size_tmp="30M"/g' /opt/rt-n56u/trunk/user/scripts/dev_init.sh
         sed -i 's/mtd_part_size=65536/mtd_part_size=13631488/g' /opt/rt-n56u/trunk/user/scripts/mtd_storage.sh
@@ -440,7 +440,7 @@ jobs:
       uses: actions/upload-artifact@master
       if: always()
       with:
-        name: MI-4
+        name: JCG-Q20-breed
         path: /opt/images
 
     - name: Release
