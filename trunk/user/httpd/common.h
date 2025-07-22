@@ -97,9 +97,9 @@ typedef u_int8_t u8;
 #define EVM_RESTART_SMARTDNS	    		(1ULL << 46) //smartdns加速
 #define EVM_RESTART_FRP	    			(1ULL << 47) //frp内网穿透
 //#define EVM_RESTART_DNSFORWARDER		(1ULL << 47) //dns转发
-//#define EVM_RESTART_SHADOWSOCKS		(1ULL << 48) //科学上网ss
+#define EVM_RESTART_SHADOWSOCKS		(1ULL << 48) //科学上网ss
 #define EVM_RESTART_CADDY			(1ULL << 48) //caddy文件管理
-//#define EVM_RESTART_SS_TUNNEL			(1ULL << 49) //科学上网插件
+#define EVM_RESTART_SS_TUNNEL			(1ULL << 49) //科学上网插件
 #define EVM_RESTART_ADGUARDHOME			(1ULL << 49) //adg去广告
 //#define EVM_RESTART_MENTOHUST			(1ULL << 50) //校园认证
 //#define EVM_RESTART_WYY			(1ULL << 50) //网易云
@@ -110,11 +110,11 @@ typedef u_int8_t u8;
 #define EVM_RESTART_WIREGUARD			(1ULL << 52) //wg异地组网
 #define EVM_RESTART_ALDRIVER			(1ULL << 53) //阿里云盘挂载
 //#define EVM_RESTART_VIRTUALHERE		(1ULL << 53) //virtualhere
-#define EVM_RESTART_UUPLUGIN			(1ULL << 54) //UU加速器
+//#define EVM_RESTART_UUPLUGIN			(1ULL << 54) //UU加速器
 //#define EVM_RESTART_KOOLPROXY			(1ULL << 55) //kp去广告
 #define EVM_RESTART_LUCKY			(1ULL << 55) //lucky
-#define EVM_RESTART_WXSEND			(1ULL << 56) //微信推送
-#define EVM_RESTART_CLOUDFLARED			(1ULL << 57) //CF隧道免费内网穿透
+//#define EVM_RESTART_WXSEND			(1ULL << 56) //微信推送
+//#define EVM_RESTART_CLOUDFLARED			(1ULL << 57) //CF隧道免费内网穿透
 #define EVM_RESTART_VNTS			(1ULL << 58) //vnt服务器
 #define EVM_RESTART_VNTCLI			(1ULL << 59) //vnt客户端
 //#define EVM_RESTART_NVPPROXY			(1ULL << 60) 
