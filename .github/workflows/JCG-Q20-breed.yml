@@ -45,7 +45,7 @@ jobs:
         sed -i 's/mtd_part_size=65536/mtd_part_size=13631488/g' /opt/rt-n56u/trunk/user/scripts/mtd_storage.sh
     - name: Build Firmware
       env:
-        TNAME: MI-4
+        TNAME: JCG-Q20-breed
         KERNEL: 3.4
       run: |
         cd /opt/rt-n56u/trunk
