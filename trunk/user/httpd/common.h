@@ -97,7 +97,7 @@ typedef u_int8_t u8;
 #define EVM_RESTART_SMARTDNS	    		(1ULL << 46) //smartdns加速
 #define EVM_RESTART_FRP	    			(1ULL << 47) //frp内网穿透
 //#define EVM_RESTART_DNSFORWARDER		(1ULL << 47) //dns转发
-//#define EVM_RESTART_SHADOWSOCKS		(1ULL << 48) //科学上网ss
+#define EVM_RESTART_SHADOWSOCKS		        (1ULL << 48) //科学上网ss
 #define EVM_RESTART_CADDY			(1ULL << 48) //caddy文件管理
 //#define EVM_RESTART_SS_TUNNEL			(1ULL << 49) //科学上网插件
 #define EVM_RESTART_ADGUARDHOME			(1ULL << 49) //adg去广告
