@@ -83,7 +83,7 @@ typedef u_int8_t u8;
 
 //如果你要修改的话 请注意后面的序号，每个插件对应的序号不能相同  不能超过63 你可以删掉不需要的 把序号给你需要的插件
 //#define EVM_RESTART_NFSD			(1ULL << 38) //nfsd文件系统
-//#define EVM_RESTART_EASYTIER			(1ULL << 38) // Easyier异地组网
+#define EVM_RESTART_EASYTIER			(1ULL << 38) // Easyier异地组网
 #define EVM_RESTART_DMS				(1ULL << 39) //Minidlna UPnP 媒体服务器
 #define EVM_RESTART_ITUNES			(1ULL << 40) //Firefly iTunes 媒体服务器
 //#define EVM_RESTART_TRMD			(1ULL << 41) //#TRANSMISSION
@@ -106,7 +106,7 @@ typedef u_int8_t u8;
 //#define EVM_RESTART_BAFA			(1ULL << 50) //巴法云
 //#define EVM_RESTART_ADBYBY			(1ULL << 51) //adb去广告
 #define EVM_RESTART_ZEROTIER			(1ULL << 51) //zeriter异地组网
-//#define EVM_RESTART_DDNSTO	    		(1ULL << 52) //ddnsto内网穿透
+#define EVM_RESTART_DDNSTO	    		(1ULL << 52) //ddnsto内网穿透
 //#define EVM_RESTART_WIREGUARD			(1ULL << 52) //wg异地组网
 //#define EVM_RESTART_ALDRIVER			(1ULL << 53) //阿里云盘挂载
 //#define EVM_RESTART_VIRTUALHERE		(1ULL << 53) //virtualhere
@@ -120,7 +120,7 @@ typedef u_int8_t u8;
 //#define EVM_RESTART_NVPPROXY			(1ULL << 60) 
 //#define EVM_RESTART_V2RAYA			(1ULL << 60) //V2RAYA
 //#define EVM_RESTART_NATPIERCE			(1ULL << 60) //皎月连
-//#define EVM_RESTART_TAILSCALE			(1ULL << 61) //taislacle
+#define EVM_RESTART_TAILSCALE			(1ULL << 61) //taislacle
 #define EVM_RESTART_REBOOT			(1ULL << 62) //重启
 #define EVM_BLOCK_UNSAFE			(1ULL << 63) /* special case */
 
